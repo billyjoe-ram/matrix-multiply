@@ -1,0 +1,10 @@
+#ifndef MULTIPLICACAOMATRIZES_THREAD_H
+#define MULTIPLICACAOMATRIZES_THREAD_H
+
+void f_th1();
+
+void f_th2(int _par1);
+
+int thread();
+
+#endif //MULTIPLICACAOMATRIZES_THREAD_H
