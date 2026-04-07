@@ -1,6 +1,0 @@
-#ifndef MULTIPLICACAOMATRIZES_MATRIX_H
-#define MULTIPLICACAOMATRIZES_MATRIX_H
-
-int matrix(int argc, char *argv[]);
-
-#endif //MULTIPLICACAOMATRIZES_MATRIX_H

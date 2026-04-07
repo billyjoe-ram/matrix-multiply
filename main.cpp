@@ -1,10 +1,7 @@
 #include <iostream>
 #include <chrono>
-#include <iomanip>
 
-#include "matrix/matrix.h"
-// #include "matrix_cleancode.h"
-//#include "thread.h"
+#include "matrix/matrix_cleancode.h"
 //#include "thread_cleancode.h"
 #include "parallel_matrix/matrix_parallel.h"
 
@@ -25,7 +22,7 @@ int main(int argc, char *argv[]) {
     std::cout << "[SEQUENTIAL] Start: 0:0:0:0 | Time spent: 0:0:0:0" << std::endl;
 
     std::chrono::steady_clock::time_point startSeq = std::chrono::steady_clock::now();
-    matrix(argc, argv);
+    matrix_cleancode(argc, argv);
     std::chrono::steady_clock::time_point endSeq = std::chrono::steady_clock::now();
 
     std::cout << "[SEQUENTIAL] End: ";
