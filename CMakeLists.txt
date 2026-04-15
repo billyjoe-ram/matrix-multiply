@@ -19,4 +19,6 @@ add_executable(MultiplicacaoMatrizes main.cpp
         thread_openmp/omp_critical.cpp
         thread_openmp/omp_critical.h
         thread_openmp/omp_atomic.cpp
-        thread_openmp/omp_atomic.h)
+        thread_openmp/omp_atomic.h
+        thread_openmp/omp_reduction.cpp
+        thread_openmp/omp_reduction.h)
