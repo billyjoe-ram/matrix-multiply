@@ -11,4 +11,6 @@ add_executable(MultiplicacaoMatrizes main.cpp
         parallel_matrix/matrix_parallel.cpp
         parallel_matrix/matrix_parallel.h
         thread_openmp/omp_base.cpp
-        thread_openmp/omp_base.h)
+        thread_openmp/omp_base.h
+        thread_openmp/omp_parallel_1.cpp
+        thread_openmp/omp_parallel_1.h)
